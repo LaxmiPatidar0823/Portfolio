@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+               <h1 class="first-letter hi">Laxmi Patidar</h1>
+               
+               <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <li><a href="#portfolio">Projects</a></li>
+                   <!-- <li><a href="#">services</a></li> -->
+                   <i class="fas fa-solid fa-square-xmark" onclick="closemenu()"></i>
+               </ul>
+               <i class='fas bx bx-menu' id="menu" onclick="openmenu()"></i>
+           </nav>
+        </div>
+        <div class="header-text">
+            <div class="row1">
+                <div class="about-col-11">
+                   <p>Hello👋</p>
+                   <h1>I'm <span>Laxmi</span><br>Python Developer</h1>
+                </div>
+                <div class="about-col-21">
+                   <img src="image/want to.jpeg" alt="" style="top: 10%;"  width="400" height="400">
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                  <img src="image/user.jpeg" alt="" width="400" height="400">
+               </div>
+               <div class="about-col-2">
+                 <h1 class="sub-title">About Me🌸</h1>
+                 <p>I'm a final-year B.Tech student specializing in <b>Artificial Intelligence and Data Science</b>. I'm passionate about<b>    Python development</b> , with hands-on experience in <b>Django</b> for backend web development.<br><br>
+                    
+                    I love learning new technologies and applying them to real-world challenges. I'm currently seeking a Python Developer role where I can contribute, grow, and keep building impactful solutions.    
+                 </p>
+                 <div class="tab-title">
+                     <p class="tab-links active-link" onclick="opnetab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opnetab('education')">Education</p>
+                    
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programing Language</span><br>C++, Python</li>
+                        <li><span>Web technologies</span><br>HTML, CSS, JavaScript</li>
+                        <li><span>Framework & tools</span><br>Django, Git, PowerBI</li>
+                        <li><span>Libraries</span><br>Numpy, Pandas, Matplotlib, Seaborn</li>
+                        <li><span>Database</span><br>SQL</li>
+                        <li><span>Machine learning</span><br>Superviserd Learning, Unsupervised Learning</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Btech(AI&DS) - Chameli Devi Group of Institution Indore<br>CGPA - 7.75</li>
+                        <li><span>2021</span><br>12th - Government Girls Higher Secondary School Oon, Khargone<br>Score - 93.8%</li>
+                        <li><span>2019</span><br>10th - Government Girls Higher Secondary School Oon, Khargone<br>Score - 92.8%</li>     
+                    </ul>
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title w">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.jpeg" alt="" height="210">
+                <div class="layer">
+                    <h3>Job Buudy</h3>
+                    <p>Job Buddy is a AI Powered Platform help job seekers to improve better experience</p>
+                    <a href=""><i class='bx bx-link' style="color: rgb(133, 4, 58);"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.jpeg" alt="" height="210">
+                <div class="layer">
+                    <h3>Scemify</h3>
+                    <p>Scemify is a AI Powered Platform help job seekers to improve better experience</p>
+                    <a href="https://github.com/LaxmiPatidar0823/Schemify_django_project"><i class='bx bx-link' style="color: rgb(133, 4, 58);"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="image/work3.jpeg" alt="" height="210">
+                <div class="layer">
+                    <h3>Social Media platform</h3>
+                    <p>Social Media platform is a AI Powered Platform help job seekers to improve better experience</p>
+                    <a href=""><i class='bx bx-link' style="color: rgb(133, 4, 58);"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+       <div class="row">
+              <div class="contact-left">
+                  <h1 class="sub-title hii">Contact Me</h1>
+                  <p><span style="margin-right:10px;"><i class='bx bx-mail-send'></i></span>laxmi.patidar.cdgi@gmail.com</p>
+                  <p><span style="margin-right:10px;"><i class='bx bx-phone' ></i></span>7987965078</p>
+                  <div class="social-icons">
+                    <a href="https://www.instagram.com/laxmi.patidar08/"><i class='bx bxl-instagram-alt'></i></a> 
+                    <a href="https://www.linkedin.com/in/laxmi-patidar-87b0b5343/"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/LaxmiPatidar0823"><i class='bx bxl-github' ></i></a>
+                    <a href=""><i class='bx bx-envelope' ></i></a>
+                    <!-- <img src="image/g.webp" alt="" height="40" width="50">
+                    <img src="image/insta.webp" alt="" height="30" width="30" style="margin: 0px 10px;">
+                    <img src="image/git.png" alt="" height="40" width="40" style="margin: 0px 10px;">
+                    <img src="image/lindin.png" alt="" height="30" width="30" style="margin: 0px 10px;"> -->
+                  </div>
+                  <a href="image/MyCV.pdf" style="margin: 25px 0px;" download  class="btn btn2">Download CV</a>
+              </div>
+              <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                      <input type="text" name="Name" placeholder="Your Name" required>
+                      <input type="email" name="Email" placeholder="Your Email" required>
+                      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                      <button type="submit" class="btn btn2" style="font-size: 18px;">Submit</button>
+                  </form>
+                  <span id="msg"></span>
+              </div>
+       </div>  
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Made By Laxmi Patidar</p>
+    </div>
+</div>
+
+
+ <script>
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+
+      function opnetab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+         }
+
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+         }
+
+         event.currentTarget.classList.add("active-link")
+         document.getElementById(tabname).classList.add("active-tab")
+      }
+
+
+ </script>  
+ 
+ <script>
+       var sidemenuu = document.getElementById("sidemenu");
+       var dis = document.getElementById("menu")
+       function openmenu(){
+          sidemenuu.style.right = "0";
+          dis.style.display = "none";
+       }
+       function closemenu(){
+         sidemenuu.style.right = "-200px";
+         dis.style.display = "block";
+       }
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVXodBF7HFrfSuL42acgo6sC0O06ErrMHsIPgeqKxTTcf_TWD1r5mBSt612lnC4bovnA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thankyou Message sent Successfully!";
+            setTimeout(function(){
+               msg.innerHTML = "";
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
