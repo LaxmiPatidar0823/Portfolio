@@ -468,7 +468,10 @@ nav .fas{
         text-align: justify;
         text-justify: inter-word;
     }
-    
+    .about-col-2 {
+        margin-top: 0;
+       
+    }
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
