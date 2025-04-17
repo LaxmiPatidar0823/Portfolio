@@ -187,7 +187,9 @@ nav ul li a:hover::after{
 
 
 #portfolio{
-    padding: 30px 0px;
+    /* padding: 30px 0px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -446,7 +448,7 @@ nav .fas{
     nav .fas.bx-menu{
         position: absolute;
         top: 25px;
-        left: 300px;
+        left: 315px;
         color:  rgb(170, 6, 74);
     }
 
@@ -493,7 +495,23 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+    
+    #header{
+        height: 85vh;
+    }
 
+    #contact{
+        padding: 25px 0px;
+    }
+    #portfolio{
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .work-list{
+        margin-top: 30px;
+    }
+    
  
 }
 
