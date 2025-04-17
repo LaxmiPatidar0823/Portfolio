@@ -353,6 +353,10 @@ form .btn2{
     margin-top: 20px;
 }
 
+
+.header-text.about-col-21 img{
+    top: 7%;
+}
 /* nav .fa-solid{
     display: none;
 }
@@ -413,29 +417,32 @@ nav .fas{
 
     
     nav .fa-solid{
-        color: rgb(6, 6, 6);  
+        color: rgb(170, 6, 74);  
     }
 
     nav ul{
-        background-color: #c1b9b9;
+        background-color: #fff;
         position: fixed;
         top: 0;
         /* right: 0; */
         right: -200px;
         width: 200px;
-        height: 50vh;
+        height: 33vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
         overflow: hidden;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
         
     }
+    
     nav ul li{
         display: block;
         margin: 25px;
     }
     nav ul li a{
-        color: #080808;
+        /* color: #080808; */
+        color: rgb(170, 6, 74);
     }
     
     nav ul .fas{
